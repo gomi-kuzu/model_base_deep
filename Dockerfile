@@ -11,7 +11,7 @@ RUN julia -e 'using Pkg; Pkg.add(["Plots", "DataFrames", "CSV"])'
 RUN julia -e 'using Pkg; Pkg.add(["Test", "StatsPlots", "Statistics"])'
 RUN julia -e 'using Pkg; Pkg.add(["LaTeXStrings"])'
 RUN julia -e 'using Pkg; Pkg.add(["FreqTables", "NamedArrays", "Distributions"])'
-RUN julia -e 'using Pkg; Pkg.add("Flux")'
+RUN julia -e 'using Pkg; Pkg.add(["Flux", "Convex", "SCS"])'
 
 # 背景設定を追加
 RUN mkdir -p /home/jovyan/.jupyter/lab/user-settings/@jupyterlab/apputils-extension
