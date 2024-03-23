@@ -13,9 +13,13 @@ RUN apt-get install -y cmake
 RUN apt-get install -y libopenblas-base
 RUN apt-get install -y libopenblas-dev
 
+## 可視化
+RUN apt-get install -y graphviz
+
 RUN pip install --upgrade ipython beautifulsoup4 lxml html5lib seaborn jupytext
 RUN pip install numpy jax jaxlib numpyro blackjax matplotlib pandas pyro-ppl japanize-matplotlib seaborn optax orbax-checkpoint flax scikit-build
 RUN pip install --upgrade sympy slycot control
+RUN pip install graphviz pydotplus
 
 RUN julia -e 'using Pkg; Pkg.add("PackageCompiler")'
 RUN julia -e 'using Pkg; Pkg.add(["Plots", "DataFrames", "CSV"])'
