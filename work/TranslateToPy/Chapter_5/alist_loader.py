@@ -52,7 +52,7 @@ def load_alist(filename):
         i = int(u[0]) - 1
         V[i, j] = 1
     
-    return H, U, V
+    return H.astype(np.int64), U.astype(np.int64), V.astype(np.int64)
 if __name__ == '__main__':
     H, U, V = load_alist("../../DU-Book/Chapter_5/6.3.alist")
     print(U)
