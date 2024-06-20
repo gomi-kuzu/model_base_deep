@@ -26,7 +26,8 @@ RUN julia -e 'using Pkg; Pkg.add(["Plots", "DataFrames", "CSV"])'
 RUN julia -e 'using Pkg; Pkg.add(["Test", "StatsPlots", "Statistics"])'
 RUN julia -e 'using Pkg; Pkg.add(["LaTeXStrings"])'
 RUN julia -e 'using Pkg; Pkg.add(["FreqTables", "NamedArrays", "Distributions"])'
-RUN julia -e 'using Pkg; Pkg.add(["Flux", "Convex", "SCS"])'
+RUN julia -e 'using Pkg; Pkg.add(["Flux", "Convex", "SCS", "MLDatasets"])'
+RUN julia -e 'using Pkg; Pkg.add(name="Tullio", version="0.2.14")' #新しいバージョンはうまく動かなかった('24.6.20)
 
 # 背景設定を追加
 RUN mkdir -p /home/jovyan/.jupyter/lab/user-settings/@jupyterlab/apputils-extension
