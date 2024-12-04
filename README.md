@@ -22,3 +22,6 @@ docker compose up -d
 - [『モデルベース深層学習と深層展開』読み会レポート#6](https://qiita.com/gomi-kuzu/items/b6f3955bc485eda95d13)
 - [『モデルベース深層学習と深層展開』読み会レポート#7](https://qiita.com/gomi-kuzu/items/ac6a40c83af6518eb8bb)
 - [『モデルベース深層学習と深層展開』読み会レポート#8](https://qiita.com/gomi-kuzu/items/88f1056f61d59b5a9b1d)
+- [『モデルベース深層学習と深層展開』読み会レポート#9](https://qiita.com/gomi-kuzu/items/c2640b7d8c30814634c3)
+- [『モデルベース深層学習と深層展開』読み会レポート#10](https://qiita.com/gomi-kuzu/items/50d8730e047e87ed1dde)
+- [『モデルベース深層学習と深層展開』読み会レポート#11](https://qiita.com/gomi-kuzu/items/60ed1a427e3708fe4409)
